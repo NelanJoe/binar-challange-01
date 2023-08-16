@@ -1,0 +1,53 @@
+.banner {
+  margin: 4rem;
+  padding: 2.5rem;
+
+  & .banner-container {
+    text-align: center;
+    padding: 6rem;
+    background-color: #0d28a6;
+    color: #fff;
+
+    border-radius: 0.4rem;
+
+    & h2 {
+      font-size: 36px;
+      margin-bottom: 1.2rem;
+    }
+
+    & p {
+      font-size: 14px;
+    }
+
+    & button {
+      border: none;
+      outline: none;
+      padding: 10px 20px;
+      font-weight: 600;
+      color: var(--btn-color);
+      background-color: var(--bg-btn-color);
+      border-radius: 0.2rem;
+    }
+
+    & button {
+      margin-top: 1.2rem;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    margin: 4rem 1rem;
+    padding: 0;
+
+    & .banner-container {
+      padding: 3rem;
+
+      & h2 {
+        font-size: 21px;
+      }
+
+      & p {
+        font-size: 14px;
+      }
+    }
+  }
+}

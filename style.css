@@ -1,0 +1,30 @@
+@import url("./css/hero-styles.css");
+@import url("./css/services-styles.css");
+@import url("./css/why-us-styles.css");
+@import url("./css/testimonial-styles.css");
+@import url("./css/banner-syles.css");
+@import url("./css/faq-styles.css");
+@import url("./css/footer-styles.css");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+:root {
+  --btn-color: #fff;
+  --bg-btn-color: #5cb85f;
+  --primary-color: #f1f3ff;
+}
+
+/* Navbar */
+.navbar-bg {
+  background-color: var(--primary-color);
+}

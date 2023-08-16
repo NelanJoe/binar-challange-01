@@ -1,0 +1,55 @@
+footer {
+  margin: 4rem;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  & a {
+    text-decoration: none;
+    color: #000;
+    transition: all 1s ease;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  & .streets {
+    display: flex;
+    flex-direction: column;
+
+    & a {
+      margin-bottom: 1.2rem;
+    }
+  }
+
+  & .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  & .socials {
+    display: flex;
+    margin: 1.2rem 0;
+
+    & span {
+      width: 28px;
+      height: 28px;
+      margin: 0 0.2rem;
+      color: #fff;
+      background-color: #0d28a6;
+      border-radius: 100%;
+
+      display: grid;
+      place-items: center;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    margin: 4rem 2.5rem;
+    padding: 0;
+    flex-direction: column;
+  }
+}
