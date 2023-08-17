@@ -34,11 +34,15 @@ footer {
     display: flex;
     margin: 1.2rem 0;
 
+    & a {
+      text-decoration: none;
+      color: #fff;
+    }
+
     & span {
       width: 28px;
       height: 28px;
       margin: 0 0.2rem;
-      color: #fff;
       background-color: #0d28a6;
       border-radius: 100%;
 
@@ -48,8 +52,16 @@ footer {
   }
 
   @media only screen and (max-width: 768px) {
-    margin: 4rem 2.5rem;
+    margin: 4rem 1rem;
     padding: 0;
     flex-direction: column;
+
+    & .connect-with-us {
+      margin-bottom: 0;
+    }
+
+    & .socials {
+      margin: 1.2rem 0;
+    }
   }
 }
